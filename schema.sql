@@ -11,8 +11,8 @@ create table membros (
 
 -- TROQUE pelos e-mails de vocês dois (os mesmos usados no login):
 insert into membros (email) values
-  ('email.do.adrian@exemplo.com'),
-  ('email.da.namorada@exemplo.com');
+  ('adriansodre1@gmail.com'),
+  ('jessicarabelcirnon@gmail.com');
 
 create or replace function is_membro() returns boolean
 language sql stable security definer set search_path = public as $$
